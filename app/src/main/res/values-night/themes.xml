@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <!--Nothing here matters except the status bar color . The Theme obtained from [Theme.kt]-->
+
+    <style name="Theme.DrOnCall" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <item name="android:statusBarColor" > @color/white_blue</item>
+    </style>
+
+<!--    <style name="Theme.DrOnCall" parent="Base.Theme.DrOnCall" >-->
+<!--        <item name="colorPrimary">@color/primaryColor</item>-->
+<!--        <item name="colorSecondary">@color/secondaryColor</item>-->
+<!--        <item name="textColorPrimary">@color/textColorPrimary</item>-->
+<!--        <item name="textColorSecondary">@color/textColorSecondary</item>-->
+<!--        <item name="textColorThird">@color/textColorThird</item>-->
+<!--        <item name="buttonColor">@color/buttonColor</item>-->
+
+<!--    </style>-->
+
+
+</resources>
