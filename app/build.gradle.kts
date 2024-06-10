@@ -1,9 +1,8 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
-    id ("kotlin-kapt")
     id("com.google.dagger.hilt.android")
-
+    id ("kotlin-kapt")
 }
 
 android {
@@ -61,6 +60,11 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    // Localization
+    implementation (libs.androidx.runtime)
+//    implementation (libs.accompanist.localization)
+
+
     //Jetpack Compose
     val composeBom = platform("androidx.compose:compose-bom:2024.05.00")
     implementation(composeBom)
@@ -76,10 +80,6 @@ dependencies {
     // or only import the main APIs for the underlying toolkit systems,
     // such as input and measurement/layout
     implementation("androidx.compose.ui:ui")
-
-    // Android Studio Preview support
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    debugImplementation("androidx.compose.ui:ui-tooling")
 
     // UI Tests
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
@@ -107,6 +107,8 @@ dependencies {
     // Compose
     implementation (libs.androidx.ui)
     implementation (libs.androidx.material)
+    // Android Studio Preview support
+    debugImplementation("androidx.compose.ui:ui-tooling")
     implementation (libs.androidx.ui.tooling.preview)
     implementation (libs.androidx.lifecycle.runtime.ktx)
     implementation (libs.androidx.activity.compose)
@@ -132,10 +134,6 @@ dependencies {
 
     // Accompanist
     implementation (libs.accompanist.systemuicontroller)
-
-    // Localization
-    implementation (libs.androidx.runtime)
-    implementation (libs.accompanist.localization)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

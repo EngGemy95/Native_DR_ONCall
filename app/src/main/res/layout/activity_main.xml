@@ -8,42 +8,42 @@
     android:theme="@style/Theme.DrOnCall"
     tools:context=".MainActivity">
 
-    <!-- Vertical Guidelines -->
+  <!--  &lt;!&ndash; Vertical Guidelines &ndash;&gt;
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.1" /> <!-- 10% from start -->
+        app:layout_constraintGuide_percent="0.1" /> &lt;!&ndash; 10% from start &ndash;&gt;
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_end"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.9" /> <!-- 10% from end -->
+        app:layout_constraintGuide_percent="0.9" /> &lt;!&ndash; 10% from end &ndash;&gt;
 
-    <!-- Horizontal Guidelines -->
+    &lt;!&ndash; Horizontal Guidelines &ndash;&gt;
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.05" /> <!-- 10% from top -->
+        app:layout_constraintGuide_percent="0.05" /> &lt;!&ndash; 10% from top &ndash;&gt;
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_middle_50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" /> <!-- 10% from top -->
+        app:layout_constraintGuide_percent="0.5" /> &lt;!&ndash; 10% from top &ndash;&gt;
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95" /> <!-- 10% from bottom -->
+        app:layout_constraintGuide_percent="0.95" /> &lt;!&ndash; 10% from bottom &ndash;&gt;
 
     <TextView
         android:id="@+id/skipTxt"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         />
 
-
+-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
