@@ -31,13 +31,14 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.*
 import com.m.g.shoaa.droncall.R
 import com.m.g.shoaa.droncall.presentation.theme.MyTheme
 
 // presentation/login/LoginScreen.kt
-@Preview(showSystemUi = true, uiMode = Configuration.UI_MODE_NIGHT_YES)
+@Preview(showSystemUi = true, uiMode = Configuration.UI_MODE_NIGHT_NO, device = Devices.PIXEL_3)
 //@Preview(showSystemUi = true , uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun LoginScreen() {
