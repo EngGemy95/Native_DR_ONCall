@@ -1,4 +1,6 @@
 package com.m.g.shoaa.droncall.presentation.login
 
-class LoginState {
+sealed class LoginState {
+    val isLoading : Boolean = true
+    val error : String? = null
 }
