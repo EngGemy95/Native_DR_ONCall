@@ -101,8 +101,7 @@ fun LoginScreen() {
                 OutlinedTextField(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .defaultMinSize(minHeight = 56.dp) // Ensures a minimum height to center text,
-                    ,
+                        .defaultMinSize(minHeight = 56.dp), // Ensures a minimum height to center text,
 
                     value = password,
                     textStyle = MaterialTheme.typography.body2.copy(color = MaterialTheme.colors.primary),

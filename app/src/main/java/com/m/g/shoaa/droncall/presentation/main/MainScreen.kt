@@ -60,7 +60,7 @@ fun MainScreen() {
                     Box(
                         modifier = Modifier
                             .clickable {
-                                       
+
                             },
                     ) {
                         Text(

@@ -4,4 +4,5 @@ import kotlinx.serialization.Serializable;
 
 @Serializable
 public class Auth {
+
 }
